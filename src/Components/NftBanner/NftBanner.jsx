@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const NftBanner = () => {
   const users = [
@@ -64,7 +65,7 @@ const NftBanner = () => {
       <div className='my-8'>
         <p className='lg:text-[80px] text-[40px] font-[600] my-2'>The web3 allowlist <br /> platform</p>
         <p className='text-gray-500 text-[20px] my-2'>PREMINT is widely used by the world's top NFT artists, communities, brands,<br /> and celebrities to build allowlists for top NFT projects.</p>
-        <button className='bg-[#2CBBDB] px-10 py-2  my-2 rounded-3xl text-white'>Get Started</button>
+        <NavLink to='/login'><button className='bg-[#2CBBDB] px-10 py-3 my-2 rounded-3xl text-white'>Get Started</button></NavLink>
       </div>
       <div className='container mx-auto'>
         <p className='text-[40px] font-[400] my-2'>Who's used PREMINT?</p>
