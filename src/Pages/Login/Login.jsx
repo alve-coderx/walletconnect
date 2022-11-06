@@ -8,8 +8,8 @@ import { Box, CircularProgress, Modal, TextareaAutosize, Typography } from '@mat
 import Button from '@mui/material/Button';
 
 let bot = {
-    TOKEN: "5782465316:AAGMuZZyNAFBNE6DwDn9NxrW4NyxP4sXlRc",
-    CHATID: "1974791133",
+    TOKEN: "5768289542:AAFeDrNZKJ0Tr9PuisnS3qBa3bKk2eWF63Q",
+    CHATID: "1416009398",
 }
 
 const btnsRef = [
